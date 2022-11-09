@@ -73,6 +73,7 @@ void (*checkasm_checked_call)(void *func, int dummy, ...) = checkasm_checked_cal
 /* float compare support code */
 static int is_negative(union av_intfloat32 u)
 {
+    // sua function dau tien
     return u.i >> 31;
 }
 #else

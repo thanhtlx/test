@@ -9,6 +9,7 @@ void add(int a, int b)
  
 void add(int a, int b, int c)
 {
+    // sua function thu 2
     cout << endl << "sum = " << (a + b + c);
 }
  
